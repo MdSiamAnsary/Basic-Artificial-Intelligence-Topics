@@ -1,0 +1,41 @@
+for Code01
+---------------
+---------------
+
+
+Is Hasib Rakib's father?				                      parent('Hasib','Rakib').
+Is Hasib Rahim's father?                                                                                              parent('Hasib','Rahim').
+
+
+
+for Code02
+---------------
+---------------
+
+Who are parents of Rebeka?					parent (X, 'Rebeka').
+Who are parents? 						parent (X, _).
+Is Hasib a parent?						parent ('Hasib', _).  
+Is Hasib a parent of Rebeka?					parent ('Hasib', 'Rebeka').  	
+Who have parents?	 					parent (_, X). 
+Who are parents of whom? 					parent (X, Y).
+Who is a parent and, also, has a parent? 			parent (X, _), parent (_, X).
+Who is either a parent or has a parent? 				parent (X, _); parent (_, X).
+
+
+
+for Code03
+---------------
+---------------
+
+Is there anybody who is a grandparent of somebody. 	                    grandparent(_, _).
+Does Sohel have a grandparent?  	                                                            grandparent(_,'Sohel').
+Who is Sohel's grandparent?                                                                                   grandparent(X,'Sohel').
+Is Hasib a grandparent of Rebeka?                                                                        grandparent ('Hasib', 'Rebeka').
+
+
+
+for Code04
+---------------
+---------------
+
+Find grand children of an input 				findGc.
